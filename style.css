@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #a3a1a1;
+    color: black
+}
+
+strong {
+
+    color: #ff0033;
+}
+.apresentacao {
+        margin: 1% ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+
+.apresentacao__conteudo {
+    width: 500px;
+    font-family: "Honk", system-ui;
+    font-size: 1.25rem;
+}
+
+.apresentacao__conteudo__paragrafo
+
+{
+    font-size: 2.25rem;
+}
+
+.apresentacao__links
+{    
+     display:flex; 
+     justify-content: space-around;
+
+    
+}
+
+.apresentacao__botao
+{
+    display:flex ;
+    justify-content: center;
+    gap: 16px;
+    background-color: rgb(228, 226, 226);
+    width: 180px ;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.35rem;
+    font-weight: 400;
+    padding: 1.5 0px;
+    text-decoration: none;
+    border: 5px outset #f38a45
+}
+.apresentacao__botao:hover{
+
+    background-color:#1b1b1b;
+
+
+}
+
+
